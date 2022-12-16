@@ -48,7 +48,7 @@ body {
 
 /* ABOUT */
 .b-about {
-  padding: 50px ;
+  padding-top: 62px ;
   background-color: #eeecec;
 }
 
@@ -57,3 +57,17 @@ body {
   font-weight: bold;
 }
 
+/* BENEFITS */
+.b-benefits {
+  padding-block: 50px;
+}
+
+.b-benefits__list {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.b-benefits__item {
+  margin-bottom: 10px;
+  text-indent: 20px;
+}
