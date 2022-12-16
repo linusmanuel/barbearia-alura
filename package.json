@@ -1,0 +1,22 @@
+{
+  "name": "barbearia-alura",
+  "version": "1.0.0",
+  "description": "Web page para a barbearia alura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linusmanuel/barbearia-alura.git"
+  },
+  "author": "Joao Lino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linusmanuel/barbearia-alura/issues"
+  },
+  "homepage": "https://github.com/linusmanuel/barbearia-alura#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
