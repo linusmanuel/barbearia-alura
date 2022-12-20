@@ -4,6 +4,13 @@
 }
 .b-header {
   background-color: #bbb;
+  padding: 20px 0;
+}
+
+nav {
+  top: 110px;
+  position: absolute;
+  right: 0;
 }
 
 nav li {
@@ -17,4 +24,10 @@ li a {
   color: #000;
   text-decoration: none;
   font-weight: bold;
+}
+
+.caixa {
+  width: 940px;
+  margin: 0 auto;
+  position: relative;
 }
