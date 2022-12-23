@@ -24,6 +24,13 @@ li a {
   color: #000;
   text-decoration: none;
   font-weight: bold;
+  transition: .2s;
+}
+
+li a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  transition: .2s;
 }
 
 .caixa {
