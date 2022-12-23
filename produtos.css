@@ -46,6 +46,8 @@ li a {
   padding: 30px 20px;
   box-sizing: border-box;
   margin: 0 1.5%;
+  border: solid 2px #000;
+  border-radius: 10px;
 }
 
 .produtos h2 {
