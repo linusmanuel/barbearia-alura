@@ -65,6 +65,10 @@ li a:hover {
   transition: .2s;
 }
 
+.produtos li:active {
+  border-color: #19c719;
+}
+
 .produtos h2 {
   font-size: 30px;
   font-weight: bold;
@@ -79,4 +83,11 @@ li a:hover {
   font-size: 22px;
   font-weight: bold;
   margin-top: 10px;
+}
+
+footer {
+  padding-block: 40px;
+  text-align: center;
+  background: #000 url('/bg.png');
+  color: #fff;
 }
