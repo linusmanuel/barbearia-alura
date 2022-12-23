@@ -55,6 +55,14 @@ li a:hover {
   margin: 0 1.5%;
   border: solid 2px #000;
   border-radius: 10px;
+  transition: .2s;
+}
+
+.produtos li:hover {
+  border-color: #c78c19;
+  transform: scale(1.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: .2s;
 }
 
 .produtos h2 {
