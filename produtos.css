@@ -91,3 +91,7 @@ footer {
   background: #000 url('/bg.png');
   color: #fff;
 }
+
+.copyright {
+  font-size: 13px;
+}
