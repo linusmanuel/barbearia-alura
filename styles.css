@@ -106,11 +106,16 @@ form label {
   font-size: 20px;
 }
 
-form input {
+.input-padrao {
   display: block;
   width: 50%;
   margin-bottom: 20px;
   padding: 10px 20px;
+}
+
+.checkbox {
+  margin-block: 15px;
+  margin-right: 10px;
 }
 
 footer {

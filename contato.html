@@ -23,12 +23,27 @@
 		<main>
 			<form action="#">
 				<label for="nomesobrenome">Nome e Sobrenome</label>
-				<input type="text" placeholder="Degite aqui" id="nomesobrenome" />
+				<input
+					class="input-padrao"
+					type="text"
+					placeholder="Degite aqui"
+					id="nomesobrenome"
+				/>
 				<label for="email">E-mail</label>
-				<input type="email" placeholder="Degite aqui" id="email" />
+				<input
+					class="input-padrao"
+					type="email"
+					placeholder="Degite aqui"
+					id="email"
+				/>
 				<label for="telefone">Telefone</label>
-				<input type="tel" placeholder="Degite aqui" id="telefone" />
-				<input type="button" value="Enviar" />
+				<input
+					class="input-padrao"
+					type="tel"
+					placeholder="Degite aqui"
+					id="telefone"
+				/>
+				<input class="input-padrao" type="button" value="Enviar" />
 
 				<label for="mensagem">Mensagem</label>
 				<textarea name="mensagem" id="mensagem" cols="68" rows="10"></textarea>
@@ -36,18 +51,35 @@
 				<div>
 					<p>Como prefere os nossos contatos</p>
 					<label for="radio-email"
-						>E-mail
-						<input type="radio" name="contato" id="radio-email" />
+						><input
+							class="checkbox"
+							type="radio"
+							name="contato"
+							id="radio-email"
+						/>E-mail</label
+					>
+					<label for="radio-telefone"
+						><input
+							class="checkbox"
+							type="radio"
+							name="contato"
+							id="radio-telefone"
+						/>Telefone
 					</label>
 					<label for="radio-telefone"
-						>Telefone
-						<input type="radio" name="contato" id="radio-telefone" />
-					</label>
-					<label for="radio-telefone"
-						>Whatsapp
-						<input type="radio" name="contato" id="radio-whatsapp" />
+						><input
+							class="checkbox"
+							type="radio"
+							name="contato"
+							id="radio-whatsapp"
+						/>Whatsapp
 					</label>
 				</div>
+
+				<label
+					><input class="checkbox" type="checkbox" />Gostaria de receber nossas
+					novidades por e-mail?</label
+				>
 			</form>
 		</main>
 		<footer>
