@@ -130,6 +130,21 @@ form label {
   background-color: darkorange;
 }
 
+table {
+  margin-block: 40px;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #555555;
+  color: #fff;
+  font-weight: bold;
+}
+
+td, th {
+  padding: 8px 15px;
+  border: solid 1px #000;
+}
 .checkbox {
   margin-block: 15px;
   margin-right: 10px;
