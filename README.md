@@ -14,8 +14,7 @@ Site desenvolvido para a barbearia Alura no curso de HTML e CSS
 
 ## Detalhes do projeto
 ´
-´´´
+´
 Run npm install
 Run live-server
 
-´´´
