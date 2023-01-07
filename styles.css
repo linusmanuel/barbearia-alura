@@ -114,6 +114,22 @@ form label {
   padding: 10px 20px;
 }
 
+.enviar {
+  padding: 15px 0;
+  background-color: orange;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.enviar:hover {
+  background-color: darkorange;
+}
+
 .checkbox {
   margin-block: 15px;
   margin-right: 10px;
