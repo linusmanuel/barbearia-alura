@@ -160,3 +160,8 @@ footer {
 .copyright {
   font-size: 13px;
 }
+
+.c-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
