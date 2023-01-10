@@ -164,4 +164,12 @@ footer {
 .c-title {
   text-align: center;
   margin-bottom: 30px;
+  clear: both;
+}
+
+.b-about img {
+  width: 160px;
+  height: 160px;
+  float: left;
+  margin-right: 15px;
 }
