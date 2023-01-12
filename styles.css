@@ -173,3 +173,12 @@ footer {
   float: left;
   margin-right: 15px;
 }
+
+.b-map {
+  text-align: center;
+  padding-block: 30px;
+}
+
+.b-map__text {
+  margin-bottom: 16px;
+}
