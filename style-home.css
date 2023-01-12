@@ -117,12 +117,16 @@ li a:hover {
 .b-benefits__picture {
   display: block;
   width: 800px;
-  height: 800px;
 }
 
 .b-benefits__picture img {
   width: 100%;
 
+}
+
+.b-video {
+  text-align: center;
+  margin-bottom: 30px;
 }
 /* FOOTER */
 .c-footer {
