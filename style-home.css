@@ -6,8 +6,11 @@
 }
 
 body {
-  background-color: #eeecec;
+  background-image: linear-gradient(#fefefe, #888888);
   font-family: 'helvetica', sans-serif;
+}
+
+main {
 }
 
 .container {
@@ -87,7 +90,6 @@ li a:hover {
 /* ABOUT */
 .b-about {
   padding-top: 62px ;
-  background-color: #eeecec;
 }
 
 .b-about__mission {
