@@ -106,17 +106,22 @@ li a:hover {
 }
 
 .b-benefits__list {
-  margin-left: 35px;
+  margin-left: 0;
   margin-bottom: 30px;
+  list-style: none;
 }
 
 .b-benefits__item {
   margin-bottom: 10px;
 }
 
+.b-benefits__item:first-child {
+  font-weight: bold;
+}
+
 .b-benefits__picture {
   display: block;
-  width: 800px;
+  width: 60%;
 }
 
 .b-benefits__picture img {
