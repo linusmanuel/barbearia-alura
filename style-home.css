@@ -117,6 +117,10 @@ li a:hover {
   margin-bottom: 10px;
 }
 
+.b-benefits__item::before {
+  content: "★";
+}
+
 .b-benefits__item:first-child {
   font-weight: bold;
 }
