@@ -132,7 +132,12 @@ li a:hover {
 
 .b-benefits__picture img {
   width: 100%;
+  transition: 400ms;
+}
 
+.b-benefits__picture img:hover {
+  width: 100%;
+  opacity: .7;
 }
 
 .b-video {
