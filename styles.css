@@ -4,7 +4,6 @@
 }
 
 body {
-  background-color: #eeecec;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -179,3 +178,34 @@ footer {
   padding-block: 30px;
 }
 
+@media screen and (max-width: 480px) {
+  .caixa {
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+    text-align: center;
+  }
+
+  .produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  form {
+    padding: 10px;
+  }
+}

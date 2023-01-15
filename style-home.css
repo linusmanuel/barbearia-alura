@@ -14,8 +14,6 @@ main {
 }
 
 .container {
-  max-width: 1200px;
-  margin: auto;
   padding-inline: 10px;
 }
 
@@ -162,4 +160,15 @@ li a:hover {
 .c-footer__link:hover {
   color: #2a7ae4;
   font-weight: 500;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 10px;
+    width: 320px;
+  }
+
+  h1 {
+    text-align: center;
+  }
 }
