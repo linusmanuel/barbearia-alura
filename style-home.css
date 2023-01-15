@@ -133,6 +133,7 @@ li a:hover {
 .b-benefits__picture img {
   width: 100%;
   transition: 400ms;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
 }
 
 .b-benefits__picture img:hover {
